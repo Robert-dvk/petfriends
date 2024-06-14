@@ -78,7 +78,7 @@ class _ProfilePageState extends State<ProfilePage> {
           ),
           GestureDetector(
             onTap: () {
-              print('Ícone "Meus dados" clicado');
+              debugPrint('Ícone "Meus dados" clicado');
             },
             child: Container(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),
@@ -103,7 +103,7 @@ class _ProfilePageState extends State<ProfilePage> {
           ),
           GestureDetector(
             onTap: () {
-              print('Ícone "Meu pet" clicado');
+              debugPrint('Ícone "Meu pet" clicado');
             },
             child: Container(
               padding: const EdgeInsets.symmetric(horizontal: 16.0),

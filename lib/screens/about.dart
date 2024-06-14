@@ -25,7 +25,7 @@ class _AboutState extends State<About> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('About',
+        title: const Text('Sobre o Pet',
         style: TextStyle(color: Colors.white),
         ),
         backgroundColor: Colors.blue,
@@ -47,7 +47,7 @@ class _AboutState extends State<About> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Sobre o PetFriends',
+                      'Características do Pet',
                       style: TextStyle(
                         fontSize: 24.0,
                         fontWeight: FontWeight.bold,
@@ -55,12 +55,12 @@ class _AboutState extends State<About> {
                     ),
                     SizedBox(height: 10),
                     Text(
-                      'O PetFriends é um aplicativo dedicado a conectar amantes de animais de estimação. Aqui você pode encontrar amigos para seus pets, agendar encontros e compartilhar suas experiências com outros donos de animais.',
-                      style: TextStyle(fontSize: 16.0),
+                      'Nome: Thor',
+                      style: TextStyle(fontSize: 18.0),
                     ),
-                    SizedBox(height: 20),
+                    SizedBox(height: 10),
                     Text(
-                      'Funcionalidades:',
+                      'Comportamento:',
                       style: TextStyle(
                         fontSize: 20.0,
                         fontWeight: FontWeight.bold,
@@ -68,12 +68,12 @@ class _AboutState extends State<About> {
                     ),
                     SizedBox(height: 10),
                     Text(
-                      '• Busca de amigos para pets\n• Mensagens diretas\n• Perfil personalizado para seu pet\n• Compartilhamento de fotos e vídeos\n• Informações sobre cuidados com animais',
+                      'Thor é um cachorro amigável e brincalhão, sempre animado para conhecer novas pessoas e animais. Ele adora fazer novos amigos e é muito dócil com crianças.',
                       style: TextStyle(fontSize: 16.0),
                     ),
                     SizedBox(height: 20),
                     Text(
-                      'Nosso Time',
+                      'Atividades Favoritas:',
                       style: TextStyle(
                         fontSize: 20.0,
                         fontWeight: FontWeight.bold,
@@ -81,7 +81,46 @@ class _AboutState extends State<About> {
                     ),
                     SizedBox(height: 10),
                     Text(
-                      'O PetFriends foi desenvolvido por uma equipe apaixonada por animais e tecnologia. Nosso objetivo é criar uma comunidade onde donos de pets possam se conectar e compartilhar suas experiências.',
+                      '• Brincar de buscar bola\n• Passear no parque\n• Nadar\n• Brincar com outros cães',
+                      style: TextStyle(fontSize: 16.0),
+                    ),
+                    SizedBox(height: 20),
+                    Text(
+                      'Castrado:',
+                      style: TextStyle(
+                        fontSize: 20.0,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    SizedBox(height: 10),
+                    Text(
+                      'Sim, Thor foi castrado aos 6 meses de idade.',
+                      style: TextStyle(fontSize: 16.0),
+                    ),
+                    SizedBox(height: 20),
+                    Text(
+                      'Treinamento:',
+                      style: TextStyle(
+                        fontSize: 20.0,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    SizedBox(height: 10),
+                    Text(
+                      'Thor é bem treinado e responde a comandos básicos como "senta", "fica" e "vem". Ele também é treinado para fazer suas necessidades fora de casa.',
+                      style: TextStyle(fontSize: 16.0),
+                    ),
+                    SizedBox(height: 20),
+                    Text(
+                      'Comportamento com outros animais:',
+                      style: TextStyle(
+                        fontSize: 20.0,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    SizedBox(height: 10),
+                    Text(
+                      'Thor é muito sociável e adora a companhia de outros cães. Ele também se dá bem com gatos, embora às vezes possa ser um pouco curioso demais.',
                       style: TextStyle(fontSize: 16.0),
                     ),
                   ],
